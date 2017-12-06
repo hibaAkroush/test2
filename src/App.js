@@ -5,20 +5,26 @@ import homer from "./img/homer.png"
 import sap from "./img/sap.png"
 import home from "./img/home.png"
 import back from "./img/back.png"
+import left from './Left';
+import right from './right'
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className="banner">
-            <img id="back" src={back}/>
-            <img id="home" src={home}/>
-            <img id="homer" src={homer}/>
-            <img id="sap" src={sap}/>
+            <a href=""><img id="back" src={back}/></a>
+            <a href=""><img id="home" src={home}/></a>
+            <a href=""><img id="homer" src={homer}/></a>
+            <a href=""><img id="sap" src={sap}/></a>
             <p id="index">Inbox</p>
         </div>
 		   	<div className="block">
-		     </div>
+          <div className="grey">
+            <p id="allItems">All Items ( 100 )</p>
+          </div>
+		    </div>
       </div>
     );
   }
