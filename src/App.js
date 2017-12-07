@@ -5,9 +5,9 @@ import homer from "./img/homer.png"
 import sap from "./img/sap.png"
 import home from "./img/home.png"
 import back from "./img/back.png"
-import left from './Left';
 import right from './right'
-
+import list from './list'
+import topArticle from "./topArticle"
 
 class App extends Component {
   render() {
