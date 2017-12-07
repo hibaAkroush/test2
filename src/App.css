@@ -3,7 +3,6 @@
 .block{
   width: 75%;
   height: 900px;
-  background-color: white;
   margin-left: 10%;
   position: absolute;
 }
@@ -11,7 +10,6 @@
 .banner {
     width: 100%;
     height: 40px;
-    position: absolute;
     z-index: 1;
     background: url("./banner.png");
 }
@@ -51,14 +49,13 @@
 .grey {
   background-color: lightgrey;
   width: 100%;
-  height: 6%;
+  height: 4%;
 }
 
 #allItems{
   color: gray;
-  top: 60%;
-  position: relative;
-}
+  position: absolute;
+  }
 
 
 

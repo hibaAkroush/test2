@@ -5,3 +5,31 @@ body {
   background: url("./back.jpg");
 
 }
+
+#list {
+background-color: white;
+width: 28%;
+height: 100%;
+top:11.7%;
+position: absolute;
+left: 10%;
+
+}
+
+#topArticle {
+background-color: white;
+width: 47%;
+height: 55%;
+top:11.7%;
+position: absolute;
+left: 38%;
+}
+
+#article {
+background-color: white;
+width: 47%;
+height: 33%;
+top:66.7%;
+position: absolute;
+left: 38%;
+}
