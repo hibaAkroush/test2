@@ -23,7 +23,13 @@ const numbers = [{
 	bla: "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
 	time:"7:30 AM",
 	pic : x
-}];
+},
+{
+	header: "Hiba is doing a task!",
+	text:"new headquarters",
+	bla: "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+	time:"7:30 AM",
+	pic : x}];
 
 const listItems = numbers.map((number) =>
   <li class="list">

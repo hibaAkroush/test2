@@ -8,6 +8,7 @@ import back from "./img/back.png"
 import right from './right'
 import list from './list'
 import topArticle from "./topArticle"
+import article from "./article"
 
 class App extends Component {
   render() {
